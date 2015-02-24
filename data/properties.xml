@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    The properties in this file are loaded when the HangMan game application
+    first loads.
+-->
+<properties>
+    <property_list>    
+        <property name="SPLASH_SCREEN_TITLE_TEXT"   value="Let The Journey Begin!"></property>
+        <property name="WINDOW_WIDTH"               value="800"></property>
+        <property name="WINDOW_HEIGHT"              value="600"></property>
+        <property name="SPLASH_SCREEN_IMAGE_NAME"   value="Game.JPG"></property>
+        <property name="DATA_PATH"                  value="./data/"></property>
+        <property name="IMG_PATH"                   value="./images/"></property>
+        <property name="LETTERS_FONT_FAMILY"        value="monospaced"></property>
+        <property name="LETTERS_FONT_SIZE"          value="24"></property>
+        <property name="DEFAULT_YES_TEXT"           value="Yes"></property>
+        <property name="DEFAULT_NO_TEXT"            value="No"></property>
+        <property name="DEFAULT_EXIT_TEXT"          value="Are you sure you wish to Quit?"></property>
+		<property name="LOAD_IMG_NAME"				value= "ss_load.png"></property>
+		<property name="START_IMG_NAME"				value="ss_start.png"></property>
+		<property name="ABOUT_IMG_NAME"				value="ss_about.png"></property>
+		<property name="EXIT_IMG_NAME"				value="ss_exit.png"></property>
+		<property name="GAME_HISTORY_IMG_NAME"				value="ss_history.png"></property>
+		<property name="CITIES_LIST_FILE_NAME"				value="cities.txt"></property>
+		<property name = "MAP_WIDTH" 									value="3904"></property>
+		<property name = "MAP_HEIGHT" 									value="5144"></property>
+		<property name = "Q1_IMAGE" 									value="gameplay_AC14.jpg"></property>
+		<property name = "Q1_WIDTH" 									value="2010"></property>
+		<property name = "Q1_HEIGHT" 									value="2569"></property>
+		<property name = "Q2_IMAGE" 									value="gameplay_DF14.jpg"></property>
+		<property name = "Q2_WIDTH" 									value="1903"></property>
+		<property name = "Q2_HEIGHT" 									value="2585"></property>
+		<property name = "Q3_IMAGE" 									value="gameplay_AC58.jpg"></property>
+		<property name = "Q3_WIDTH" 									value="1985"></property>
+		<property name = "Q3_HEIGHT" 									value="2583"></property>
+		<property name = "Q4_IMAGE" 									value="gameplay_DF58.jpg"></property>
+		<property name = "Q4_WIDTH" 									value="1927"></property>
+		<property name = "Q4_WIDTH" 									value="2561"></property>
+		<property name = "PANE_HEIGHT"                              value="500"></property>
+		<property name = "PANE_WIDTH"                                value="400"></property>
+		<property name = "FLIGHT_IMAGE_NAME"                                value="Flight Plan.jpg"></property>
+		<property name = "FLIGHT_TEXT_PATH"                                value="flightInfo.txt"></property>
+    </property_list>
+</properties>

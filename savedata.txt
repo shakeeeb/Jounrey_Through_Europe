@@ -1,0 +1,50 @@
+n *Black
+C *Black
+s *false
+p *0
+P *GENEVE
++
+d *GENEVE
+d *NIS
+d *GOTEBORG
+n *Blue
+C *Blue
+s *false
+P *LA_CORUNA
+-
+c *LA_CORUNA
+c *MOSKVA
+c *BERN
+n *Green
+C *Green
+s *false
+P *WARSZAWA
+-
+c *WARSZAWA
+c *GRAZ
+c *NICE
+n *Red
+C *Red
+s *false
+P *CERNOVCY
+-
+c *CERNOVCY
+c *CORDOBA
+c *CORK
+n *White
+C *White
+s *false
+P *THESSALONIKI
+-
+c *THESSALONIKI
+c *STOCKHOLM
+c *TRIESTE
+n *Yellow
+C *Yellow
+s *false
+P *POZNAN
+-
+c *POZNAN
+c *PRAHA
+c *PATRAI
+&

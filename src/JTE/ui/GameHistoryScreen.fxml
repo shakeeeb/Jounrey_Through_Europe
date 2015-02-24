@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="JTE.ui.GameHistoryScreenController">
+   <children>
+      <ScrollPane fx:id="swagPane" layoutX="38.0" layoutY="39.0" prefHeight="458.0" prefWidth="645.0">
+         <content>
+            <Label fx:id="info" text="Label" />
+         </content></ScrollPane>
+      <Button fx:id="backButton" layoutX="374.0" layoutY="527.0" mnemonicParsing="false" onMouseClicked="#returnToGame" text="Return to Game" />
+   </children>
+</AnchorPane>

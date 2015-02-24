@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.canvas.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="JTE.ui.PlayGameScreenController">
+   <children>
+      <GridPane gridLinesVisible="true" layoutX="612.0" layoutY="139.0" prefHeight="233.0" prefWidth="174.0">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" maxWidth="85.0" minWidth="10.0" prefWidth="85.0" />
+          <ColumnConstraints hgrow="SOMETIMES" maxWidth="85.0" minWidth="10.0" prefWidth="85.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <ImageView fx:id="Q1" fitHeight="124.0" fitWidth="86.0" onMouseClicked="#goToQ1" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@gameplay_AC14.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="Q2" fitHeight="110.0" fitWidth="86.0" onMouseClicked="#goToQ2" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1">
+               <image>
+                  <Image url="@gameplay_DF14.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="Q3" fitHeight="124.0" fitWidth="86.0" onMouseClicked="#goToQ3" pickOnBounds="true" preserveRatio="true" GridPane.rowIndex="1">
+               <image>
+                  <Image url="@gameplay_AC58.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="Q4" fitHeight="110.0" fitWidth="86.0" onMouseClicked="#goToQ4" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1" GridPane.rowIndex="1">
+               <image>
+                  <Image url="@gameplay_DF58.jpg" />
+               </image></ImageView>
+         </children>
+      </GridPane>
+      <ImageView fx:id="diceImage" fitHeight="78.0" fitWidth="77.0" layoutX="709.0" layoutY="50.0" onMouseClicked="#diceRoll" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../images/die_1.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="572.0" layoutY="50.0" text="Special Effects:">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="578.0" layoutY="80.0" prefHeight="17.0" prefWidth="106.0" text="misc special effects go here" visible="false" />
+      <Button fx:id="gameHistoryButton" layoutX="624.0" layoutY="383.0" mnemonicParsing="false" onMouseClicked="#getGameHistory" prefHeight="25.0" prefWidth="151.0" text="Game History">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="aboutButton" layoutX="624.0" layoutY="433.0" mnemonicParsing="false" onMouseClicked="#goToAboutScreen" prefHeight="25.0" prefWidth="151.0" text="About">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="SaveButton" layoutX="624.0" layoutY="483.0" mnemonicParsing="false" onMouseClicked="#saveGame" prefHeight="25.0" prefWidth="151.0" text="Save">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="quitGame" layoutX="624.0" layoutY="534.0" mnemonicParsing="false" onMouseClicked="#quitRequest" prefHeight="25.0" prefWidth="151.0" text="Quit">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <StackPane fx:id="hand" layoutY="50.0" prefHeight="533.0" prefWidth="200.0" />
+      <Label fx:id="playerName" layoutX="7.0" layoutY="8.0" onMouseClicked="#endTurn" text="Player Name">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <BorderPane fx:id="mainPane" layoutX="192.0" layoutY="80.0" maxHeight="500.0" maxWidth="400.0" minHeight="-Infinity" minWidth="-Infinity" onDragDropped="#checkDragDrop" onMouseClicked="#checkPoint" onMouseDragged="#checkDrag" prefHeight="500.0" prefWidth="400.0">
+         <children>
+            <ImageView fx:id="Map" fitHeight="500.0" fitWidth="400.0" onMouseMoved="#check" pickOnBounds="true"> 
+               <image>
+                  <Image url="@gameplay_AC14.jpg" />
+               </image></ImageView>
+         </children></BorderPane>
+      <Label fx:id="CityName" layoutX="218.0" layoutY="35.0" text="Label" />
+      <Label fx:id="theX" layoutX="303.0" layoutY="35.0" text="Label" />
+      <Label fx:id="theY" layoutX="345.0" layoutY="35.0" text="Label" />
+      <Button fx:id="FlightMap" layoutX="556.0" layoutY="4.0" mnemonicParsing="false" onMouseClicked="#goToFlightMap" prefHeight="25.0" prefWidth="151.0" text="Flight Map">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

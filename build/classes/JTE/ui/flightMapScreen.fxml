@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="JTE.ui.FlightMapScreenController">
+   <children>
+      <ImageView fx:id="mainImage" fitHeight="488.0" fitWidth="500.0" layoutX="152.0" layoutY="20.0" onMouseClicked="#checkPoint" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Flight_Plan.JPG" />
+         </image></ImageView>
+      <Button fx:id="returnButton" layoutX="324.0" layoutY="537.0" mnemonicParsing="false" onMouseClicked="#returnToGame" text="Return to Game" />
+   </children>
+</AnchorPane>
